@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Pacifico&display=swap');
+
+/* Global */
+a:link, a:visited {
+    color: #fff;
+}
+
+.logo {
+    width: 120px;
+}
+
+#resourcesEntry p {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #0d4415;
+}
+
+#blogEntry h2, #resourcesEntry h2 {
+    color: #c9c983;
+    font-family: 'Pacifico', cursive;
+    font-size: 3em;
+    text-shadow: 3px 3px 5px #0a0a0a;
+    padding-bottom: 20px
+}
+
+header h1 {
+    color: #c9c983;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 3px 3px 5px #0a0a0a;
+    margin-top: 20px;
+    font-size: 3em;
+}
+
+/* Navigation */
+
+.nav-pills a {
+    color: #0d4415;
+    border: #0d4415 solid 2px;
+}
+
+.nav-pills > li.active > a {
+    color: #fff;
+    background-color: #0d4415;
+}
+
+.nav-pills > li.active > a:hover,
+.nav-pills > li > a:hover {
+    background-color: #9fbb9f;
+    color: #fff;
+}
+
+#navButtons li {
+    font-family: 'Josefin Sans' sans-serif;
+}
+
+/* Jumbotron Section */
+.jumbotron {
+    background-image: url(../img/Banner\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+/* Large Social */
+
+#lgSocial {
+    font-family: "Josefin Sans", sans-serif; 
+    font-size: 1.5em;
+}
+
+#address a {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #0d4415
+}
+
+/* Projects */
+#projects > h2,h3 {
+    font-family: "Pacifico", cursive;
+    color: #c9c983;
+    text-shadow: 3px 3px 5px #0a0a0a;
+}
+
+#projects p {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#projects button:hover {
+    background-color: #9fbb9f;
+}
+
+#projects button, #projects button:visited {
+    background-color: #0d4415;
+    color: #fff;
+    border: #0d4415 solid 2px;
+}
+
+#projects img {
+    height: 175px;
+}
+
+/* Blog */
+#blog h2 {
+    font-family: 'Pacifico', cursive;
+    color: #c9c983;
+    text-shadow: 3px 3px 5px #0a0a0a;
+}
+
+#blog p {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #0d4415;
+}
+
+/* Email Form */
+
+#emailForm {
+    border: solid 2px;
+    border-color: #0d4415;
+    background-color: #9fbb9f;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+#emailFormGroup {
+    padding-bottom: 20px;
+}
+
+#emailForm p {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #0d4415;
+}
+
+#emailForm h2 {
+    font-family: 'Pacifico', sans-serif;
+    color: #c9c983;
+    text-shadow: 3px 3px 3px #0a0a0a;
+    
+}
+
+/* Footer */
+
+footer, footer a:link, footer a:visited {
+    background-color: #9fbb9f;
+    color: #0d4415
+}
+
+footer {
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 20px;
+}
+
+.rights {
+    background-color: #fff;
+}
+
+li a:hover {
+    background-color: #0d4415;
+}
