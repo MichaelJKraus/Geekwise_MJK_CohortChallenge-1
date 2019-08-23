@@ -1,174 +1,329 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>MJK Michael J. Kraus Web Design</title>
+	<title>Restaurante</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/all.min.css">
 	<link rel="stylesheet" href="css/styles.css">
 </head>
-
 <body>
-	<!-- Nav Bar -->
-	<!-- Emmet Code: (.container>header.row>(col-xs-8.col-sm-4.col-md-6.centered>img.pull-left.logo+h1.pull-left.text-center{Pet
-	Store})+(nav.col-xs-12.col-sm-7.col-md-6>ul.nav.nav-pills.pull-right>(li[role="presentation"]>a)*3)) -->
-	<div class="container">
-		<header class="row">
-			<col-xs-8 class="col-sm-4 col-md-6 centered">
-				<img src="img/MJK ICON Green.png" alt="MJK Web Design Icon" class="pull-left logo">
-				<h1 class="pull-left text-center">Web Design</h1>
-			</col-xs-8>
-			<nav class="col-xs-12 col-sm-7 col-md-6">
-				<ul id="navButtons" class="nav nav-pills pull-right">
-					<li role="presentation" class="active"><a href="">Home</a></li>
-					<li role="presentation"><a href="Restaurante/index.html" target="_blank">Current Project</a></li>
-					<li role="presentation"><a href="blog.html">Blog</a></li>
-					<li role="presentation"><a href="contactme.html">Contact Me</a></li>
-					<li role="presentation"><a href="resources.html">Resources</a></li>
-				</ul>
-			</nav>
-		</header>
-	</div>
-	<!-- End of Nav Bar -->
 
-	<!-- JUMBOTRON -->
-	<!-- (.jumbotron>.container.text-center.text-uppercase>h2{The products they love. The prices you like.})*! -->
-	<div class="jumbotron">
-		<div class="container text-center text-uppercase">
-			<h2></h2>
-		</div>
-	</div>
-	<!-- End of Jumbotron -->
-
-	<!-- Main Section -->
-	<!-- Emmet Code: (section.container>.row>.col-sm-7.text-justify.featured>h2.text-uppercase{Featured}+p{lorem}+.row>(.col-sm-4.product>.row>(.col-sm-12.col-xs-6.img_box>img-responsive+(.col-sm-12.col-xs-6>h4+p{Lorem}+button.btn.bt-xs.center-block{Buy
-	Now!})))*3) -->
-	<section class="container">
-		<div class="row">
-			<div id="projects" class="col-sm-7 col-xs-12 text-justify featured">
-				<h2 class="text-uppercase">Projects</h2>
-				<p>Below are a few of the projects I have been working on, please feel free to browse through them. Soon I will have a comments section where you will be able to send me feedback on my designs. Thanks in advance for your views and comments!</p>
-				<div class="row">
-					<div class="col-sm-4 col-xs-12 project">
-						<div class="row">
-							<div class="col-sm-12 col-xs-12 img_box">
-								<img src="img/RestauranteThumbnail.png" alt="Restaurante Site" class="center-block img-responsive">
-								<img-responsive></img-responsive>
-								<div class="col-sm-12 col-xs-12">
-									<button class="btn bt-xs center-block"><a href="Restaurante/index.html" target="_blank">View Now</a></button>
-									<h3>Restaurante</h3>
-									<p>This project is my second project while attending my first course at <b>Geekwise Academy</b>. This project incorporated scrolling content with static background, a carousel, a form, social media, embedded map and more. This project also concentrates on <i>Object-Oriented Cascading Style Sheet (OOCSS).</i> </p>
-									
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-4 col-xs-12 project">
-						<div class="row">
-							<div class="col-sm-12 col-xs-12 img_box">
-								<img src="img/petstore_logo.png" alt="Pet Store" class="center-block img-responsive">
-								<img-responsive></img-responsive>
-								<div class="col-sm-12 col-xs-12">
-									<button class="btn bt-xs center-block"><a href="Petstore/index.html" target="_blank">View Now</a></button>
-									<h3>Pet Store</h3>
-									<p>This project was my first project while attending my first course at <b>Geekwise Academy</b>. This project was the very first project we created after learning how to wire-frame a website and learned about using containers, columns, rows, and justification of images and text.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-4 col-xs-12 project">
-						<div class="row">
-							<div class="col-sm-12 col-xs-12 img_box">
-								<img src="img/MJK LOGO Green.png" alt="Green Logo" class="center-block img-responsive">
-								<img-responsive></img-responsive>
-								<div class="col-sm-12 col-xs-12">
-									<button class="btn bt-xs center-block"><a href="#" target="#">Coming Soon</a> </button>
-									<h3>Future Project</h3>
-									<p><i>This space is reserved for future projects</i></p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- Emmet Code: (aside.col-sm-3.col-sm-offset-2>h2.text-center.text-uppercase{Services}+ul.nav.nav-pills.nav-stacked.text-center>(li[role=presentation]>a.text-uppercase{Adopt a}+p{Lorem})*3) -->
-			<aside id="blog" class="col-sm-5">
-				<h2 class="text-center text-uppercase">Blog</h2>
-				<ul class="nav nav-pills nav-stacked text-center">
-					<li role="presentation" class="active">
-						<a href="blog.html" class="text-uppercase">8/1/2019</a>
-						<p>Tonight is the first study group I have been able to attend. The past few weeks I have not beeen able to attend due to personal obligations I had before I started the course. Before tonight I was reaching out to the team in the Slack Study Group channel. I offered to help people in class while i was not able to attend in person and some had Direct Messaged me for help and suggestions. I like to help other people in the class, it helped to reinforce what I have learned and tested my grasp of the information. The study group was small tonight, just three of us and the teacher. It was good because it gave me dedicated time to work on my pages, help others, and bash ideas around with other students while Jacque helped to clarify some questions we had.</p>
-					</li>
-					<li role="presentation" class="active">
-						<a href="blog.html" class="text-uppercase">7/31/2019</a>
-						<p>Today we finished off the "Restaurante" page before the first break. After the break we began the process of making adjustments to the final projects. It is required we have the following elements incorporated into our pages.Readable code, good file structure, nested code, all links work, bootstrap formatting, responsive site and a media query. We also must heave a GitHub Repo, Navbar, Accordion or thumbnails, at least three pages of content, link to a site I created, at least 4 social media icons, 2 Google Fonts and a contact form. Tonight we crammed out the code and had the teacher available for questions and suggestions. Because I was able to work ahead during the week, I have most of the requirements added already. Another good night!</p>
-					</li>
-					<li role="presentation" class="active">
-						<a href="blog.html" class="text-uppercase">7/29/2019</a>
-						<p>Tonight's lesson at Geekwise was the completion of the Pet Store page and we worked through about half of the "Restaurante" page. More new elements were added, we learned how to create a carousel, tabbed section (it is used in this example to hold the menu) and integration of social media link and icons. A very good class that I will take away from and incorporate what we learned into the completed Pet Store page.</p>
-					</li>
-				</ul>
-			</aside>
-		</div>
-	</section>
-	<!-- End Main Section -->
-
-	<!-- Footer -->
-	<footer>
+	<!-- Navbar -->
+	<!-- Emmet Code: nav.navbar.navbar-default>(.container-fluid>(.navbar-header>(button[type="button"].navbar-toggle.collapsed[data-toggle="collapse"][data-target="#mainNavbar"]>(span.icon-bar)*4)+(a.navbar-brand>img[src=img/name-01.png][alt="logo"]))+(.collapse.navbar-collapse#mainNavbar>(ul.nav.navbar-nav.narbar-right>(li>a)*5)))*1 -->
+	<nav class="navbar navbar-default">
 		<div class="container-fluid">
-			<div class="row centered">
-				<div class="col-xs-6 col-sm-1 col-sm-offset-1"><img src="img/MJK LOGO Green.png" alt="Pet Store Logo" class="logo">
-				</div>
-				<!-- Emmet Code: (.col-xs-6.col-sm-3.col-sm-offset-1.contact_info>(address>(a>{Pet Store}>br{Fresno, California}>br)+(a{info@petstore.com}))) -->
-				<div class="col-xs-6 col-sm-3 col-sm-offset-1 contact_info">
-					<address>
-						<a href="https://goo.gl/maps/8ZtiXwJtA2BqR5xo7" alt="MJK Web Design 7722 N Angus Ave, Fresno, California 93720" target="_blank">
-							MJK Web Design<br>7722 N Angus Ave </br>Fresno, California 93720<br>
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainNavbar">
+					<span class="sr-only">Navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button><a href="" class="navbar-brand"><img src="img/name-01.png" alt="logo"></a>
+			</div>
+			<div class="collapse navbar-collapse" id="mainNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active">
+						<a href="#">Home <span class="sr-only">(current)</span>
 						</a>
-						<a href="">mjkraus@att.net</a>
-					</address>
+					</li>
+					<li><a href="#our_story">Our Story</a></li>
+					<li><a href="#review">Review</a></li>
+					<li><a href="#menu">Menu</a></li>
+					<li><a href="#contact_us">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+<!-- End of Navbar -->
+	<!-- Carousel -->
+	<div id="carousel" class="carousel slide" data-ride="carousel">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+		  	<li data-target="#carousel" data-slide-to="0" class="active"></li>
+		  	<li data-target="#carousel" data-slide-to="1"></li>
+		  	<li data-target="#carousel" data-slide-to="2"></li>
+		</ol>
+	  
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner" role="listbox">
+		  	<div id="logo-01" class="item active main_img1">
+				<img src="img/logo-01.png" alt="Carousel Logo" class="imag-reponsive center-block main_logo">
+		  	</div>
+			<div class="item main_img2">
+				<div class="carousel-caption">
+					<h1>Eat Local</h1>
+					<p>All of <b>Restaurante's</b> produce, meats and dairy are sourced locally. We work with local farmers and ranchers to ensure you are recieving the best possible value for your dollar. All produce, meats and dairy are ethically grown and harvested to reduce environmental impact.</p>
+					<a href="" class="btn btn-lg btn-primary" role="button">Learn More</a>
 				</div>
-				<!-- Emmet Code: .col-sm-2.social>(a>(i.fab.fa+span.hidden-xs{Facebook}))*3 -->
-				<div class="col-sm-2 social">
-					<a target="_blank" href="https://www.facebook.com/mkraus1224"><i class="fab fa-facebook-square"></i>
-						<span class="hidden-xs"> 
-							Facebook
-						</span>
-						<br class="hidden-xs">
-					</a>
-					<a target="_blank" href="https://www.twitter.com/MichaelJKraus"><i class="fab fa-twitter-square"></i>
-						<span class="hidden-xs"> 
-							Twitter
-						</span>
-						<br class="hidden-xs">
-					</a>
-					<a target="_blank" href="https://www.linkedin.com/in/michael-j-kraus"><i class="fab fa-linkedin"></i>
-						<span class="hidden-xs"> 
-							LinkedIn
-						</span>
-						<br class="hidden-xs">
-					</a>
-					<a target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram"></i>
-						<span class="hidden-xs">
-							Instagram
-						</span>
-					</a>
+			</div>
+			<div class="item main_img3">
+				<div class="carousel-caption">
+					<h1>From Farm To Table</h1>
+					<p>The farms and ranches we source our food from are local and we work hand-in-hand with the farmerss to ensure the highest quality with the lowest cost. We work directly with farmers to understand their needs and they ours.</br><i>Quality you can taste!</i></p>
+					<a href="" class="btn btn-lg btn-primary" role="button">Learn More</a>
 				</div>
 			</div>
 		</div>
+		
+	  
+		<!-- Controls -->
+		<a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+		  	<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		  	<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+		  	<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		  	<span class="sr-only">Next</span>
+		</a>
+	</div>
+	<!-- End Carousel -->
+	<!-- Our Story Section -->
+	<!-- Emmet Code: #our_story.container-fluid>(.row>(.col-sm-4.col-xs-offset-1>h1{Our Story}+h3{One Man. One Dream})+(.col-sm-5.col-sm-offset-1>h2.story_year{1982}+(p.text-justify)*4)) -->
+	<div id="our_story" class="container-fluid">
 		<div class="row">
-			<div class="col-sm-12 fine_print text-center">
-				<p class="rights">&copy; MJK Web Design. All rights reserved.</p>
+			<div class="col-sm-4 col-xs-offset-1">
+				<h1>Our Story</h1>
+				<h3>One Man. One Dream</h3>
+			</div>
+			<div class="col-sm-5 col-sm-offset-1">
+				<h2 id="story_year">1989</h2>
+				<p class="text-justify">The vision of Restaurante began in 1989 when Bjarn Stroustrup came to the Central Valley of California with his wife Olga and purchased a small one acre lot of land on the outskirts of the small farming community of Five Points. Using money loaned to him by his parents, Aunts, Uncles and cousins he was able to buy used equipment to work his land and seeds for his first crop.</p>
+				<p class="text-justify">It was a hard first year for the Stroustrups, living day-to-day, with barely enough food to survive until his crops produced and could be sold at market. At times even Bjarn and Olga thought they were crazy for taking such a high risk. That first year would be the start of something special. That year, when their crops came in, it was more than expected, a lot more.</p>
+				<p class="text-justify">The crops were harvested and brought to market, with the best of the crops brought to the county fair where they would be judged against other farmers crops. Bjarn and Olga's top crops took several blue ribbons in the fair that year and every farmer near and far wanted to know their secret. Bjarn and Olga shared their secrets with other farmers and began what is a long-lasting bond with his fellow farmers of the Central Valley.</p>
+				<p class="text-justify">10 years Bjarn and Olga spent working their farm, expanding their stake in California to 30 acres over that time, building relationships with neighboring farmers. Bjarn and Olga would host dinners for their friends and thats when Restaurante came to be. All of their farmer friends raved about Olga's cooking and encouraged her to open a restaurant offering to bring her the produce, meats, and dairy she needed for her menu.</p>
+				<p class="text-justify">To this day, the Stroustrup's still work their farm, and are close friends with those same farmers whom still bring them the fresh produce, meats, and dairy the resturant needs. Be sure to wave at Olga who can still be seen in the kitchen ensure the food tastes spectacular, and shake Bjarn's hand on your way in or out of Restaurante as he is usually seen greeting customers who come in for a hearty farm-fresh meal.</p>
 			</div>
 		</div>
-	</footer>
+	</div>
+	<!-- End Our Story Section -->
+	<!-- Review -->
+	<div id="review" class="container-fluid">
+		<div class="row text-center">
+			<div class="col-sm-8 center">
+				<h1>Fresno Bee</h1>
+				<p>"The freshest and best ingredients come together to make some of the best food I have ever eaten. You can really taste the Central Valley in every bit." </br> <b>-Johnny Ringo</br>Food Critic for the Fresno Bee</b></p>
+			</div>
+		</div>
+		<div class="row text-center">
+			<div class="col-sm-8 center">
+				<h1>Tulare Times</h1>
+				<p>"I have never had food prepared with this fresh of ingerdients. It truly does make a difference in the quality of the food, the taste, and value for your dollar. I will be coming back, often!" </br> <b>-Alanzo Johannsen</br>Food Critic for the Tulare Times</b></p>
+			</div>
+		</div>
+		<div class="row text-center">
+			<div class="col-sm-8 center">
+				<h1>Travel Channel's No Reservations</h1>
+				<p>"Our production team and I stopped in Fresno just to get some gas and saw Restaurante across the street and it sparked our interest. Little did we know we would be spending the next few days filming for the show at Restaurante. The food is amazing." </br> <b>-Anthony Bourdain</br>Celebrity Television Food Critic</b></p>
+			</div>
+		</div>
+	</div>
+	<!-- End Review Section -->
+	<!-- New Menu Section -->
 
-	<!-- End of Footer -->
-	<!-- scripts -->
+	<div id="menu">
+		<div class="container">
+			<div class="row text-center">
+				<h1>Menu</h1>
+			</div>
+			<div class="navbar">
+				<ul class="nav nav-tabs nav-justified" id="menuTabs">
+					<li class="active"><a href="#appetizers" data-toggle="tab">Appetizers</a></li>
+					<li><a href="#lunch" data-toggle="tab">Lunch</a></li>
+					<li><a href="#dinner" data-toggle="tab">Dinner</a></li>
+					<li><a href="#dessert" data-toggle="tab">Dessert</a></li>
+				</ul>
+				<div class="tab-content">
+					<div id="appetizers" class="tab-pane fade active in"> 
+						<div class="col-sm-3 col-xs-6 food">
+							<img src="img/dip.jpg" alt="dip" class="image-thumbnail img-responsive">
+							<h3>Mexican Dip Trio</h3>
+							<p>Salsa Roja, Guacamole, and Mexican Queso dips all prepared fresh on premises with local produce. Served with a large side of toasted garlic French Bread with parsley for dipping. A local favorite.</p>
+							<h3 class="text-center">$5-</h3>
+						</div>
+						<div class="col-sm-3 col-xs-6 food">
+							<img src="img/eggplant.jpg" alt="eggplant" class="image-thumbnail img-responsive">
+							<h3>Eggplant Caprese</h3>
+							<p>Breaded and lightly fried eggplant topped with fresh Buffalo Mozzarella, vine-ripened tomatoes, and a sprig of fresh sweet basil. Vegan-friendly option for a refreshing appetizer.</p>
+							<h3 class="text-center">$5-</h3>
+						</div>
+						<div class="col-sm-3 col-xs-6 food">
+							<img src="img/meat.jpg" alt="meat" class="image-thumbnail img-responsive">
+							<h3>Roast Beef Wrap</h3>
+							<p>Asparagus, sun-dried peppers and tomatoes, fresh cilantro and cream cheese rolled and wrapped into a thick-cut slice of smoked roast beef. Served chilled and with Au Jus for dipping.</p>
+							<h3 class="text-center">$6-</h3>
+						</div>
+						<div class="col-sm-3 col-xs-6 food">
+							<img src="img/bruschetta.jpg" alt="bruchetta" class="image-thumbnail img-responsive">
+							<h3>Fresh Bruchetta</h3>
+							<p>Thinly sliced and toasted french bread dusted lightly with parmasean cheese topped with fresh diced tomatoes and sweet basil. Served with balsamic vinaigrette and light olive oil.</p>
+							<h3 class="text-center">$5-</h3>
+						</div>
+					</div>
+					<div id="lunch" class="tab-pane fade">
+					<div class="col-sm-3 col-xs-6 food">
+							<img src="img/lunch1.jpg" alt="Classic Cheeseburger" class="image-thumbnail img-responsive">
+							<h3>Ranch-Hand Cheeseburger</h3>
+							<p><b>Harris Ranch</b> ground beef and smoked bacon atop a toasted sesame roll. Topped with locally grown lettuce, tomatoe, red onion. Served with a side of greens salad and dressing of choice.</p>
+							<h3 class="text-center">$8-</h3>
+						</div>
+						<div class="col-sm-3 col-xs-6 food">
+							<img src="img/lunch2.jpg" alt="Tuna Melt" class="image-thumbnail img-responsive">
+							<h3>Bacon Tuna Melt</h3>
+							<p>Served on a nine-grain bread, our classic tuna salad is served with melted baby swiss cheese. Tomaotes, red onion, and maple bacon top-off our tuna melt for a unique twist on a old favorite.</p>
+							<h3 class="text-center">$7-</h3>
+						</div>
+						<div class="col-sm-3 col-xs-6 food">
+							<img src="img/lunch3.jpg" alt="Pulled Pork" class="image-thumbnail img-responsive">
+							<h3>Pulled Pork Sandwich</h3>
+							<p>Braised pulled-pork slowly cooked and marinated in a thick Texas style Bar-B-Que sauce. Served as Texans prefer it, with pickles, sweet onions, and sharp chedder cheese on a french roll. Served with fries. </p>
+							<h3 class="text-center">$9-</h3>
+						</div>
+						<div class="col-sm-3 col-xs-6 food">
+							<img src="img/lunch4.jpg" alt="Turkey BLT" class="image-thumbnail img-responsive">
+							<h3>Turkey B.L.T. & Chips</h3>
+							<p>Artisian bread with a large mound of rotisserie turkey. Provalone cheese, tomatoe, light mayonnaise and lettuce dress this sandwich. Served with a side of fresh waffle cut kettle chips.</p>
+							<h3 class="text-center">$8-</h3>
+						</div>
+					</div>
+					<div id="dinner" class="tab-pane fade">
+						<div class="col-sm-3 col-xs-6 food">
+							<img src="img/dinner1.jpg" alt="Filet Mignon" class="image-thumbnail img-responsive">
+							<h3>Filet Mignon Au Jus</h3>
+							<p><b>Harris Ranch</b> Filet Mignon aged to perfection. The softest and most-tender cut of beef. Served to your liking and topped with sauteed onion and vegtable medely. Lightly coated with our own Au Jus.</p>
+							<h3 class="text-center">$19-</h3>
+						</div>
+						<div class="col-sm-3 col-xs-6 food">
+							<img src="img/dinner2.jpg" alt="Ranchers Breakfast" class="image-thumbnail img-responsive">
+							<h3>Rancher's Breakfast</h3>
+							<p>The favorite of <b>Harris Ranch's</b> ranchers, sirloin cut steak, seasoned with a dry-rub before being flame grilled to your liking. Served with a poached egg, and fresh breakfast salsa.</p>
+							<h3 class="text-center">$16-</h3>
+						</div>
+						<div class="col-sm-3 col-xs-6 food">
+							<img src="img/dinner3.jpg" alt="Whole Roast Chicken" class="image-thumbnail img-responsive">
+							<h3>Whole Roast Chicken</h3>
+							<p>Whole roasted chicken topped with fresh thyme then basted with a sweet butter cream sauce while roasted on our rotisserie. Searved with a fresh greens salad topped with tomatoe, egg, cheese and dressing of choice</p>
+							<h3 class="text-center">$15-</h3>
+						</div>
+						<div class="col-sm-3 col-xs-6 food">
+							<img src="img/dinner4.jpg" alt="Farmers Market Salad" class="image-thumbnail img-responsive">
+							<h3>Farmer Market Salad</h3>
+							<p>All of the favorites from the local farmers-market in one salad. Fresh greens topped with red onion, tomatoe, mushrooms, egg, romano cheese, candied pecans and toasted crutons.</p>
+							<h3 class="text-center">$12-</h3>
+						</div>
+					</div>
+					<div id="dessert" class="tab-pane fade">
+						<div class="col-sm-3 col-xs-6 food">
+							<img src="img/dessert1.jpg" alt="Stawberry Parfait" class="image-thumbnail img-responsive">
+							<h3>Strawberry Parfait</h3>
+							<p>Greek-style yogurt sourced from local dairy ranches starts off this excellent dessert. Fresh local strawberries and granola finish this dessert. Chocolate or caramel sauce avialable upon request.</p>
+							<h3 class="text-center">$5-</h3>
+						</div>
+						<div class="col-sm-3 col-xs-6 food">
+							<img src="img/dessert2.jpg" alt="Chocolate Cream Puff" class="image-thumbnail img-responsive">
+							<h3>Chocolate Cream Puff</h3>
+							<p>A light Italian cream puff split and filled to the edges with a sweet chocolate mousse. With a touch of powdered sugar, caramel sauce, and chocolate shavings this is on decadent dessert.</p>
+							<h3 class="text-center">$4-</h3>
+						</div>
+						<div class="col-sm-3 col-xs-6 food">
+							<img src="img/dessert3.jpg" alt="Mixed Fruit and Grain Parfait" class="image-thumbnail img-responsive">
+							<h3>Fruit & Grain Parfait</h3>
+							<p>Vanilla yogurt with multiple layers of vanilla granola, strawberries, blueberries, raspberries, and topped-off with fresh-made whipped cream. Another local favorite.</p>
+							<h3 class="text-center">$5-</h3>
+						</div>
+						<div class="col-sm-3 col-xs-6 food">
+							<img src="img/dessert4.jpg" alt="Chocolate & Caramel Doughnut" class="image-thumbnail img-responsive">
+							<h3>Chocolate Nut Doughnut</h3>
+							<p>We start off with a walnut and chocolate doughnut, still warm from baking. We drizzle chocolate and caramel on top and then finish off with powdered sugar and more toasted walnuts.</p>
+							<h3 class="text-center">$4-</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End of New Menu Section -->
+
+	<!-- Contact Us Section -->
+	<div id="contact_us" class="container-fluid">
+		<div class="container">
+			<div class="row">
+				<div id="contact_us_col_12" class="col-sm-12">
+					<h1>Contact Us</h1>
+					<p>Please send us a message via our contact form below, call the resturant directly or visit us in person. Feedback is always welcome and we appreciate our customers. Thank you for visiting our home page.</p>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<div id="emailForm" class="col-sm-6">
+								<form>
+									<div class="form-group">
+										<label for="inputName1">Name: <b>*</b></label>
+										<input type="name" class="form-control" id="inputName1" placeholder="Full Name">
+									</div>
+									<div class="form-group">
+										<label for="inputEmail1">Email address: <b>*</b></label>
+										<input type="email" class="form-control" id="inputEmail1" placeholder="Email Address">
+									</div>
+									<div class="form-group">
+										<label for="inputSubject1">Subject: <b>*</b></label>
+										<input type="subject" class="form-control" id="inputSubject1" placeholder="Subject">
+									</div>
+									<div id="message" class="form-group">
+											<label for="inputMessage1">Message: <b>*</b></label>
+											<input type="message" class="form-control" id="inputMessage1" placeholder="Message">
+									</div>
+									<div class="checkbox">
+										<label>
+											<input type="checkbox"> I AM a Robot!
+										</label>
+									</div id="submitButton">
+										<button type="submit" class="btn btn-default">Send Message</button>
+										<p>All fields marked with <b>*</b> are required.</p>
+								</form>
+							</div>
+							<div class="col-sm-6">
+								<img src="img/name-01.png" alt="Logo">
+									<p>123 Fulton Street </br>Fresno, Ca 93728</br>P. (559) 867-5309</p>
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.604061098131!2d-119.78797104890802!3d36.73206927913277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809460a5cfdf4b6b%3A0xab092ce50c284a0a!2sBitwise+Industries!5e0!3m2!1sen!2sus!4v1564121744304!5m2!1sen!2sus" width="350" height="200" frameborder="0" style="border:0" allowfullscreen>
+									</iframe>
+								<div id="social" class="row">
+									Find us on social media at: </br>
+								<a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i>
+									<span class="hidden-xs"> 
+										Facebook
+									</span>
+									<br class="hidden-xs">
+								</a>
+								<a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i>
+									<span class="hidden-xs"> 
+										Twitter
+									</span>
+									<br class="hidden-xs">
+								</a>
+								<a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i>
+									<span class="hidden-xs"> 
+										LinkedIn
+									</span>
+									<br class="hidden-xs">
+								</a>
+								<a href="https:www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i>
+									<span class="hidden-xs">
+										Instagram
+									</span>
+								</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End of Contact Us -->
+	<!-- javascript	 -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 </body>
-
 </html>
