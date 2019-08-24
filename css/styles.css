@@ -181,29 +181,35 @@ nav.navbar {
 }
 
 /* Our Story Section */
-
+#our_story {
+    background-color: #561420;
+}
 #our_story .row {
     margin-top: 30px;
 }
 
 #our_story h1 {
     font-family: 'Goudy Bookletter 1911', cursive;
-    color: #f8512f;
-    font-size: 6em;
-    text-shadow: 4px 4px 5px #0a0a0a;
+    color: #C59A6F;
+    font-size: 4em;
+    text-shadow: 2px 2px 3px #CCCCCC;
 }
 
 #our_story h3  {
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
-    font-size: 2em;
+    font-size: 1,5em;
     margin-top: 0;
+    color: #FCFCFC;
+    text-shadow: 2px 2px 3px #333333;
 }
 
 #our_story p {
     font-family: 'Roboto Slab', serif;
     font-size: 1.4em;
     font-weight: 300;
+    color: #FCFCFC;
+    text-shadow: 2px 2px 3px #333333;
 }
 
 #story_year {
@@ -269,27 +275,27 @@ nav.navbar {
 #menu h1 {
     font-family: 'Goudy Bookletter 1911', cursive;
     font-size: 5em;
-    color: #f8512f;
+    color: #FCFCFC;
     text-shadow: 4px 4px 5px #0a0a0a;
 }
 
 #menuTabs {
     font-family: 'Goudy Bookletter 1911', cursive;
     font-size: 2em;
-    background-color: #f8512f;
+    background-color: #821122;
     border-radius: 20px;
     border-bottom-color: transparent;
 }
 
 #appetizers, #lunch, #dinner, #dessert {
     font-family: 'Roboto Slab', serif;
-    color: #fff;
+    color: #FCFCFC;
 }
 
 #appetizers h3, #lunch h3, #dinner h3, #dessert h3 {
     font-family: 'Goudy Bookletter 1911', cursive;
-    color: #f8512f;
-    text-shadow: 1px 1px 2px #fff;
+    color: #FCFCFC;
+    text-shadow: 1px 1px 2px #333333;
     font-size: 3em;
 }
 /* Contact Us Section */
@@ -305,14 +311,14 @@ nav.navbar {
     font-weight: 700;
     font-size: 4em;
     text-shadow: 4px 4px 5px #0a0a0a;
-    color: #fff;
+    color: #FCFCFC;
 }
 
 #contact_us p {
     font-family: 'Roboto Slab', serif;
     font-size: 1.5em;
     text-shadow: 4px 4px 5px #0a0a0a;
-    color: #fff;
+    color: #FCFCFC;
 }
 
 #contact_us_col_12 {
@@ -330,7 +336,7 @@ nav.navbar {
     text-shadow: 4px 4px 5px #333333;
     border-style: solid;
     border-radius: 20px;
-    border-color: #CCCCCC;
+    border-color: #FCFCFC;
 }
 #emailForm b {
     color: #561420;
