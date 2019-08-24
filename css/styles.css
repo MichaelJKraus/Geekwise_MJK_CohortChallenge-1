@@ -1,8 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Lobster|Raleway&display=swap');
-/* Fonts used:
-font-family: 'Raleway', sans-serif;
-font-family: 'Lobster', cursive; */
-
 @import url('https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911|Roboto+Slab&display=swap');
 /* Fonts Used:
 font-family: 'Goudy Bookletter 1911', serif;
@@ -23,6 +18,13 @@ color:
 
 
 /* Global */
+h2 {
+    font-family: 'Goudy Bookletter 1911', serif;
+    color: #FCFCFC;
+    font-weight: 700;
+    font-size: 3em;
+    text-shadow: 4px 4px 5px #0a0a0a;
+}
 
 #companyName {
     font-family: 'Goudy Bookletter 1911', cursive;
@@ -47,6 +49,11 @@ a:visited {
 .container-fluid {
     padding: 0;
     margin: 0;
+}
+
+#lawDesignBold {
+    font-family: 'Goudy Bookletter 1911', cursive;
+    font-size: 1.5em;
 }
 
 #our_story, #review, #menu #contact_us {
@@ -119,24 +126,29 @@ nav.navbar {
     font-size: 20px;
 } */
 
-#carouselFormat > h1{
+/* #carouselFormat > h1{
     font-family: 'Goudy Bookletter 1911', serif;
     font-size: 3em;
 }
 #carouselFormat > p {
     font-family: 'Goudy Bookletter 1911', serif;
     font-size: 3em;
-}
+} */
 
 .carousel-inner .item {
-    /* font-family: 'Roboto S' cursive; */
+    font-family: 'Roboto Slab', serif;
     font-size: 1.5em;
     width: 100%;
     height: 100vh;
     background-size: cover;
     background-position: center;
+    color: #FCFCFC;
 }
-
+.carousel-inner .item  h1 {
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 2.5em;
+    color: #FCFCFC;
+}
 .main_img1 {
     background-image: url("../img/courtroom.jpg")
 }
@@ -147,20 +159,21 @@ nav.navbar {
     background-image: url("../img/law-books-close.jpg")
 }
 
-.main_logo {
+/* .main_logo {
     max-height: 300px;
-}
+} */
 
 /* button */
 
 .btn-primary {
-    color: #fff;
-    background-color: #f8512f;
+    color: #FCFCFC;
+    background-color: #821122;
     border-color: transparent;
 }
 
 .btn-primary:hover {
-    background-color: #d34326;
+    color: #C59A6F;
+    background-color: #561420;
     border-color: transparent;
 }
 
@@ -278,6 +291,7 @@ nav.navbar {
 #contact_us h1 {
     font-family: 'Goudy Bookletter 1911', cursive;
     text-transform: uppercase;
+    font-weight: 700;
     font-size: 4em;
     text-shadow: 4px 4px 5px #0a0a0a;
     color: #fff;
@@ -297,20 +311,18 @@ nav.navbar {
 /* email Form */
 
 #emailForm {
-    padding-right: 50px;
-    padding-left: 50px;
-    padding-bottom: 10px;
+    padding: 50px;
     background-color: #C59A6F;
     font-family: 'Roboto Slab', serif;
     font-size: 1em;
-    color: #fff;
-    text-shadow: 4px 4px 5px #0a0a0a;
+    color: #FCFCFC;
+    text-shadow: 4px 4px 5px #333333;
     border-style: solid;
     border-radius: 20px;
-    border-color: #fff;
+    border-color: #CCCCCC;
 }
 #emailForm b {
-    color: red;
+    color: #561420;
     font-size: 1.5em;
 }
 
@@ -320,7 +332,7 @@ nav.navbar {
     padding-left: 20px;
     font-family: 'Roboto Slab', serif;
     font-size: 1.5em;
-    color: #fff;
+    color: #FCFCFC;
     text-shadow: 4px 4px 5px #0a0a0a;
 }
 
