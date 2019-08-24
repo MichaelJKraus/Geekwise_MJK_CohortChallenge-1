@@ -158,6 +158,9 @@ nav.navbar {
 .main_img3 {
     background-image: url("../img/law-books-close.jpg")
 }
+.main_img4 {
+    background-image: url("../img/adult-analyzing-bandw.jpg")
+}
 
 /* .main_logo {
     max-height: 300px;
@@ -216,7 +219,7 @@ nav.navbar {
 /* Review Section */
 
 #review {
-    background-image: url('../img/food_review.jpg');
+    background-image: url('../img/Justice-BW.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
@@ -233,23 +236,31 @@ nav.navbar {
 
 #review h1 {
     font-family: 'Goudy Bookletter 1911', cursive;
-    font-size: 5em;
-    color: #f8512f;
+    font-size: 3em;
+    font-weight: 700;
+    color: #821122;
     text-shadow: 4px 4px 5px #0a0a0a;
 }
 
 #review p {
-    color: #fff;
+    color: #FCFCFC;
     font-family: 'Roboto Slab', serif;
     font-weight: 300;
-    font-size: 2em;
+    font-size: 1.5em;
     text-shadow: 4px 4px 5px #0a0a0a;
 }
 
+#review b{
+    color: #C59A6F;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 1.5em;
+    text-shadow: 4px 4px 5px #0a0a0a;
+}
 /* Menu Section */
 
 #menu {
-    background-image: url('../img/black_linen.png');
+    background-image: url('../img/cherry-wood.jpg');
     background-size: cover;
     background-attachment: fixed;
     border-top-color: transparent;
