@@ -1,10 +1,36 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster|Raleway&display=swap');
-
 /* Fonts used:
 font-family: 'Raleway', sans-serif;
 font-family: 'Lobster', cursive; */
 
+@import url('https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911|Roboto+Slab&display=swap');
+/* Fonts Used:
+font-family: 'Goudy Bookletter 1911', serif;
+font-family: 'Roboto Slab', serif;
+*/
+/* 
+Color Palette: */
+
+Colors {
+color: 
+#561420
+#821122
+#C59A6F
+#333333
+#CCCCCC
+#FCFCFC
+}
+
+
 /* Global */
+
+#companyName {
+    font-family: 'Goudy Bookletter 1911', cursive;
+    color: #FCFCFC;
+    font-size: 5em;
+    font-weight: 900;
+    margin-top: -10px;
+}
 
 a:link {
     color: #fff;
@@ -27,8 +53,6 @@ a:visited {
     min-height: 600px;
 }
 
-
-
 /* Navbar Section */
 .nav li a:hover, .navbar-default {
     background-color: transparent;
@@ -41,19 +65,19 @@ a:visited {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    color: rgb(34, 34, 34);
-    background-color: rgba(17,17,17.5)
+    color: #FCFCFC;
+    background-color: rgba(130,17,34,.5);
 }
 
 .navbar-default .navbar-nav > li > a {
-    color:#fcfcfc;
+    color:#CCCCCC;
     text-shadow: 4px 4px 5px #0a0a0a;
 }
 
 .navbar-default .navbar-nav li a:hover,
 .navbar-default .navbar-nav li a:focus {
-    color: #f8512f;
-    background-color: rgba(17,17,17,.6);
+    color: #C59A6F;
+    background-color: rgba(86,20,32,.8);
 }
 
 nav.navbar {
@@ -65,43 +89,58 @@ nav.navbar {
 }
 
 .navbar-brand > img {
-    margin-top: -7px;
+    margin-top: 0px;
 }
 
 /* Carousel CSS */
 
-#logo-01 {
+/* #carouselFront {
     padding-top: 175PX;
-}
+    color: #FCFCFC;
+} */
 
-.carousel > h1 {
-    font-family: 'Lobster' cursive;
-}
+/* .carousel > h1 {
+    
+} */
 
-.carousel {
+/* .carousel {
     margin-bottom: 60px;
-}
+} */
 
-.carousel-caption {
+/* .carousel-caption > h1 {
+    font-family: 'Goudy Bookletter 1911' cursive;
     z-index: 20;
     padding-bottom: 175px;
 }
 
+.carousel-caption > p {
+    font-family: 'Roboto S', sans-serif;
+    color: #f7f7f7;
+    font-size: 20px;
+} */
+
+.carousel-inner > h1 {
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 3em;
+}
+
 .carousel-inner .item {
+    /* font-family: 'Roboto S' cursive; */
+    font-size: 1.5em;
     width: 100%;
-    height: 600px;
+    height: 100vh;
     background-size: cover;
     background-position: center;
 }
 
 .main_img1 {
-    background-image: url("../img/wood-2.jpg")
+    background-image: url("../img/courtroom.jpg")
 }
 .main_img2 {
-    background-image: url("../img/restaurant-2.jpg")
+    background-image: url("../img/adults-businessman-close-up.jpg")
 }
 .main_img3 {
-    background-image: url("../img/farm-2.jpg")
+    background-image: url("../img/law-books-close.jpg")
 }
 
 .main_logo {
@@ -121,11 +160,6 @@ nav.navbar {
     border-color: transparent;
 }
 
-.carousel-caption p {
-    color: #f7f7f7;
-    font-size: 20px;
-}
-
 /* Our Story Section */
 
 #our_story .row {
@@ -133,21 +167,21 @@ nav.navbar {
 }
 
 #our_story h1 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Goudy Bookletter 1911', cursive;
     color: #f8512f;
     font-size: 6em;
     text-shadow: 4px 4px 5px #0a0a0a;
 }
 
 #our_story h3  {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-weight: 700;
     font-size: 2em;
     margin-top: 0;
 }
 
 #our_story p {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 1.4em;
     font-weight: 300;
 }
@@ -181,7 +215,7 @@ nav.navbar {
 }
 
 #review h1 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Goudy Bookletter 1911', cursive;
     font-size: 5em;
     color: #f8512f;
     text-shadow: 4px 4px 5px #0a0a0a;
@@ -189,7 +223,7 @@ nav.navbar {
 
 #review p {
     color: #fff;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-weight: 300;
     font-size: 2em;
     text-shadow: 4px 4px 5px #0a0a0a;
@@ -205,14 +239,14 @@ nav.navbar {
 }
 
 #menu h1 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Goudy Bookletter 1911', cursive;
     font-size: 5em;
     color: #f8512f;
     text-shadow: 4px 4px 5px #0a0a0a;
 }
 
 #menuTabs {
-    font-family: 'Lobster', cursive;
+    font-family: 'Goudy Bookletter 1911', cursive;
     font-size: 2em;
     background-color: #f8512f;
     border-radius: 20px;
@@ -220,12 +254,12 @@ nav.navbar {
 }
 
 #appetizers, #lunch, #dinner, #dessert {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Slab', serif;
     color: #fff;
 }
 
 #appetizers h3, #lunch h3, #dinner h3, #dessert h3 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Goudy Bookletter 1911', cursive;
     color: #f8512f;
     text-shadow: 1px 1px 2px #fff;
     font-size: 3em;
@@ -234,11 +268,11 @@ nav.navbar {
 
 #contact_us {
     height: 900px;
-    background-color: #d34326;
+    background-color: #561420;
 }
 
 #contact_us h1 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Goudy Bookletter 1911', cursive;
     text-transform: uppercase;
     font-size: 4em;
     text-shadow: 4px 4px 5px #0a0a0a;
@@ -246,7 +280,7 @@ nav.navbar {
 }
 
 #contact_us p {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 1.5em;
     text-shadow: 4px 4px 5px #0a0a0a;
     color: #fff;
@@ -262,8 +296,8 @@ nav.navbar {
     padding-right: 50px;
     padding-left: 50px;
     padding-bottom: 10px;
-    background-color: #f8512f;
-    font-family: 'Raleway', sans-serif;
+    background-color: #C59A6F;
+    font-family: 'Roboto Slab', serif;
     font-size: 1em;
     color: #fff;
     text-shadow: 4px 4px 5px #0a0a0a;
@@ -280,7 +314,7 @@ nav.navbar {
 
 #social {
     padding-left: 20px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 1.5em;
     color: #fff;
     text-shadow: 4px 4px 5px #0a0a0a;
