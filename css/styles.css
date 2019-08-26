@@ -24,7 +24,7 @@ h2 {
 #companyName {
     font-family: 'Goudy Bookletter 1911', cursive;
     color: #FCFCFC;
-    font-size: 5em;
+    font-size: 4vh;
     font-weight: 900;
     margin-top: -10px;
 }
@@ -52,7 +52,7 @@ a:visited {
 }
 
 #uxuiDesign, #review, #dataTabs #contact_us {
-    min-height: 600px;
+    min-height: 650px;
 }
 /* Navbar Section ************************************************************************************************************* */
 .nav li a:hover, .navbar-default {
@@ -111,7 +111,6 @@ nav.navbar {
     font-size: 1.5em;
     text-shadow: 2px 2px 3px #0A0A0A;
     color: #FCFCFC;
-    padding-bottom: 33vh;
 }
 
 .main_img1 {
@@ -143,6 +142,8 @@ nav.navbar {
 /* UX/UI Section******************************************************************************************************** */
 #uxuiDesign{
     background-color: #561420;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 #uxuiDesign .row {
     margin-top: 30px;
@@ -176,6 +177,8 @@ nav.navbar {
     background-image: url('../img/Justice-BW.jpg');
     background-size: cover;
     background-attachment: fixed;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 #review .center {
